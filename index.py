@@ -68,3 +68,6 @@ print("Python version of the editor:", sys.version)
 # variable_name = "Kamal"  # snake_case
 # ClassName = "Kamal"      # PascalCase
 # CONSTANT_NAME = "Kamal"  # UPPER_SNAKE_CASE
+
+# type Casting
+
