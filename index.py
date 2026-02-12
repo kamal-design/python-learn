@@ -73,4 +73,4 @@ print("Python version of the editor:", sys.version)
 # inputs
 # code comments
 # code comments are ignored by the interpreter
-# string handling or manupulation
+# string handling or manipulation
