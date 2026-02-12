@@ -70,4 +70,7 @@ print("Python version of the editor:", sys.version)
 # CONSTANT_NAME = "Kamal"  # UPPER_SNAKE_CASE
 
 # type Casting
-
+# inputs
+# code comments
+# code comments are ignored by the interpreter
+# string handling or manupulation
