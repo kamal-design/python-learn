@@ -4,6 +4,22 @@
 print("Hello, World!")
 #
 # 2. Variables and Data Types
+# 4. Type Conversion (Casting)
+x = "100"
+y = int(x)      # Convert string to int
+z = float(y)    # Convert int to float
+print(f"Casting: {x} (str) -> {y} (int) -> {z} (float)")
+
+# 5. Dynamic Typing
+var = "I am a string"
+print("Type of var:", type(var))
+var = 42 # Reassigning to a different type
+print("New type of var:", type(var))
+
+# 6. Constants (Naming convention only)
+PI = 3.14159
+MAX_CONNECTIONS = 10
+print("Constants (by convention):", PI, MAX_CONNECTIONS)
 name = "Kamal"      # str
 age = 25            # int
 height = 5.9        # float

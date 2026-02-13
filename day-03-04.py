@@ -46,13 +46,27 @@ print("Right Shift a by 1:", a >> 1) # 2 (0010 in binary)
 
 
 # String Manipulation Example
-s = "Hello, World!"
-print(s.lower())         # hello, world!
-print(s.upper())         # HELLO, WORLD!
-print(s[0:5])            # Hello
+s = "Hello, Python World!"
+print("Original:", s)
+print("Lowercase:", s.lower()) #hello, python world!
+print("Uppercase:", s.upper()) #HELLO, PYTHON WORLD!
+
 print(s.replace("World", "Python"))  # Hello, Python!
 print(s.split(","))      # ['Hello', ' World!']
 print(s.strip("!"))      # Hello, World
+
+# Slicing [start:stop:step]
+print("Slice [0:5]:", s[0:5])           # Hello
+print("Every 2nd char:", s[::2])        # Hlo yhnWrd
+print("Reverse string:", s[::-1])       # !dlroW nohtyP ,olleH
+
+# String Formatting (Modern f-strings)
+version = 3.12
+print(f"I am learning Python {version} and I love it!")
+
+# Membership
+print("Python" in s) # True
+print("Java" not in s) # True
 
 # Realtime coding example
 amount = 1200
