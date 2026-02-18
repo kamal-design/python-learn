@@ -78,3 +78,29 @@ print("Mod:", add_utils.mod(10, 20))
 print("Pow:", add_utils.pow(10, 20))
 print("Sqrt:", add_utils.sqrt(10))
 print("Cbrt:", add_utils.cbrt(10))
+
+# Arguments (*args)
+# *args is used to pass multiple arguments to a function
+# *args is a tuple
+# *args is a variable length argument
+
+def addArgs(*args):
+    total = 0 # 0 + 1 + 3 + 5 + 7 + 9 = 25
+    for num in args: # 1, 3, 5, 7, 9
+        total += num # 0 +=1, 1 +=3, 4 +=5, 9 +=7, 16 +=9
+    return total # 25
+
+print(addArgs(1,3,5,7,9)) # 25
+
+# Keyword Arguments (*kwargs)
+# *kwargs is used to pass multiple keyword arguments to a function
+# *kwargs is a dictionary
+# *kwargs is a variable length argument
+# *kwargs is a keyword variable length argument
+def create_profile(**kwargs):
+    profile = ""
+    for key, value in kwargs.items():
+        profile += f"{key}: {value}\n"
+    return profile
+
+print(create_profile(name="Kamal Hassan", age=30, job="Software Engineer", city="Chennai", country="India", gender="Male"))
