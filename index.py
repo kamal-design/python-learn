@@ -21,6 +21,8 @@
 # Day 29: Simple project (calculator, to-do app, etc.)
 # Day 30: Review, practice, explore next steps (web, data science, automation)
 
+# access specifiers and modifiers
+
 # check Leadcode to solve python questions
 print("Hello kamal")
 

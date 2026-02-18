@@ -83,6 +83,10 @@ print(tools.div(5, 5)) # output 1.0
 # hybrid inheritance
 # hierarchical inheritance
 
+# diffents between multiple and multi-level inheritance
+# multiple inheritance -> one child class inherits from multiple parent classes
+# multi-level inheritance -> one child class inherits from one parent class, which inherits from another parent class
+
 # single inheritance
 class Parent: # parent
     def parent_method(self):
