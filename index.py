@@ -76,3 +76,7 @@ print("Python version of the editor:", sys.version)
 # code comments
 # code comments are ignored by the interpreter
 # string handling or manipulation
+
+
+# Instance (object) =>  calss and static method
+

@@ -1,0 +1,4 @@
+Welcome to Python file handling!
+This is a new file.
+This is an appended text.
+ adding a new line

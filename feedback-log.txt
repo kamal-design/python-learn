@@ -1,0 +1,14 @@
+very good section for file hadling
+not too good section
+python file handing is full depth good
+very bad
+text file readline
+
+ERROR: file is error in feedback saved
+ERROR: user feedback is error not texttesting file readlines in Error data
+
+Null pointer exception occurred
+Application shutdown
+Shaduled task started
+WARNING: Disk space low
+INFO: user login completedtesting file read only 4 files
