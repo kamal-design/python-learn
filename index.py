@@ -80,3 +80,4 @@ print("Python version of the editor:", sys.version)
 
 # Instance (object) =>  calss and static method
 
+# Higher order functions (HOF) is a function that either takes one or more functions as arguments or returns a function as its result. HOFs are a fundamental concept in functional programming and are widely used in Python.  Used to make code mote flexible and reusable, and dynamic. They allow you to abstract away common patterns of computation and create more concise and expressive code.
