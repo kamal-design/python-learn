@@ -8,3 +8,5 @@
 {'id': 8, 'name': 'John', 'email': 'john@example.com', 'department': 'HR'}
 {'id': 9, 'name': 'Kamal', 'email': 'kamal@example.com', 'department': 'IT'}
 {'id': 10, 'name': 'John', 'email': 'john@example.com', 'department': 'HR'}
+{'id': 11, 'name': 'Kamal', 'email': 'kamal@example.com', 'department': 'IT'}
+{'id': 12, 'name': 'John', 'email': 'john@example.com', 'department': 'HR'}
