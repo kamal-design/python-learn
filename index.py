@@ -87,6 +87,6 @@ def apply_function(func, value):
     return func(value)
 
 # impure and pure function
+# lamda Function
 
-
-# last video time: 8:15
+# last video time: 8:33
