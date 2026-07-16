@@ -88,5 +88,11 @@ def apply_function(func, value):
 
 # impure and pure function
 # lamda Function
+# closure
+# partial applied function
+# Composed Function
+# callback Function
+# recursive function
+# generator function
 
-# last video time: 8:33
+# last video time: 8:53
