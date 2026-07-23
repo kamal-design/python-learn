@@ -94,5 +94,7 @@ def apply_function(func, value):
 # callback Function
 # recursive function
 # generator function
+# test Case
+# scheduling (automation is different dont confuse)
 
-# last video time: 8:53
+# last video time: 9:24
