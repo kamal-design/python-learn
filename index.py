@@ -1,6 +1,7 @@
 # run cmd
 # python3 index.py
 
+# Data Engineering
 # Python 30-Day Roadmap
 #
 # Day 1-2: Python setup, IDE, Hello World, variables, data types
@@ -96,5 +97,11 @@ def apply_function(func, value):
 # generator function
 # test Case
 # scheduling (automation is different dont confuse)
+# 1. cron or (while loop)
+# 2. Airflow use (Docker or windows subsystem for linux) wsl --install
+# 3. ETL Python(Airflow), (wrapper.sh, etl-script.py, python-dag.py) using pandas
+# 4.Streamlit
+# Streamlit is python library to create web apps for data projects without needing HTML, Css or Javascript. it truns your python scripts into interactive web apps just by running a script.
+# python -m streamlit run python/streamlit_app.py
 
-# last video time: 9:24
+# last video time: 10:05
