@@ -101,7 +101,16 @@ def apply_function(func, value):
 # 2. Airflow use (Docker or windows subsystem for linux) wsl --install
 # 3. ETL Python(Airflow), (wrapper.sh, etl-script.py, python-dag.py) using pandas
 # 4.Streamlit
+
 # Streamlit is python library to create web apps for data projects without needing HTML, Css or Javascript. it truns your python scripts into interactive web apps just by running a script.
 # python -m streamlit run python/streamlit_app.py
+# What can you build streanlit?
+# Data dashboard, Ml model apps (PDF chat), Image/Video tools, Chatbots, resume Analyzers, SQL explorers
 
-# last video time: 10:05
+# tkinter is the standard GUI (Graphical User Interface) Library for pythin. It lets you build windows, buttons, labels, text boxes and more - just like apps with a user interface. (Eg windows calculator app, timer)
+    # 1. Built-in with python (no need to install separately)
+    # 2. Good for building simple desktop applications
+    # 3. Cross-platform (works on windows, macOS, Linux)
+
+
+# last video time: 10:12
