@@ -112,5 +112,8 @@ def apply_function(func, value):
     # 2. Good for building simple desktop applications
     # 3. Cross-platform (works on windows, macOS, Linux)
 
+# what is matplotlib?
+# matplotlib is a library in python used to create static, animated and interactive plots.
+# The main module: pyplot - provides fuctions to make plots just like MATLAB.
 
 # last video time: 10:12
