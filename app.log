@@ -1,0 +1,4 @@
+2026-08-27 09:42:05,404 - INFO - Dividing 10 by 2
+2026-08-27 09:42:05,404 - DEBUG - Result: 5.0
+2026-08-27 09:42:05,404 - INFO - Dividing 10 by 0
+2026-08-27 09:42:05,404 - ERROR - Error: Tried to divide by zero!

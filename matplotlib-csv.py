@@ -18,4 +18,10 @@ plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.grid(True)
 plt.tight_layout()
+# plt.show()
+
+# save this perive chart
+plt.plot([1,2,3], [4,5,6])
+plt.title("Saving plot example")
+plt.savefig('sales_matplot.png') # Save as PNG file
 plt.show()

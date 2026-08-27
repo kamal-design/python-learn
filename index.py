@@ -4,6 +4,7 @@
 # Data Engineering
 # Python 30-Day Roadmap
 #
+### brevity
 # Day 1-2: Python setup, IDE, Hello World, variables, data types
 # Day 3-4: Input/output, basic operators, string manipulation
 # Day 5-6: Lists, tuples, sets, dictionaries
@@ -116,4 +117,68 @@ def apply_function(func, value):
 # matplotlib is a library in python used to create static, animated and interactive plots.
 # The main module: pyplot - provides fuctions to make plots just like MATLAB.
 
-# last video time: 10:12
+
+# Print Statement file operation using information category only use devlopment
+# Logger or Log
+
+"""
+A logger is a tool used to record messages from your program while it runs, which can help you debug, monitor and maintain your code more effectively. It's part of the built-in logging module in python.
+
+level             purpose
+DEBUG       Detailed information (for dev Only)
+INFO        General info (app started, etc.)
+WARNING     Something might go wrong
+ERROR       Something went wrong
+CRITICAL    Serious error (app my crash)
+
+⚠️ Limitations of using print()
+❌ You can't set levels (e.g info vs Error)
+❌ You can't redirect easily to a file
+❌ You can't filter messages (like show only errors)
+❌ No timestamps unless you manually add them
+❌ No format control
+
+"""
+
+# Pandas (use More brevity)
+"""
+1. what is pandas?
+    Pandas is a powerful python library used for data analysis and manipulation.
+
+2. what is a DataFrame in pandas? (dataframe in bigdata spark)
+    A DateFrame is the code data structure in pandas, used to store tabular data (Like an Excel sheet or SQL table).
+
+    ✅ key points about DataFrame
+    ✅ 2D Structure
+
+    Rows x Columns
+    Think of it as a table with labeled row and columns
+
+    ✅ Labeled Axes
+    Columns have names (labels)
+
+    Rows have index numbers (can be custom too)
+
+    ✅ Heterogeneous data allowed
+    Each column can have different data types (int, float, string, etc..)
+
+    ✅ Column Operations are easy
+    you can select, rename, delete or add new columns easily
+
+    ✅ Built-in functions
+    Statistical summaries, sorting, filtering, merging, group-by, pivoting, etc.
+
+    ✅ Data import/export
+    Easily read/write to CSV, Excel, SQL, JSON, etx...
+
+    ### No pandas below disadvantages
+    Pain Point              Description
+    🔄 manual Looping       you have to manually loop through both tables
+    ⚠️ verbose              Code becomes long and repetitive
+    📖 Hard to read         Hard to debug or maintain
+    ⌛️ slower               Not Optimized for large data sets
+    ❌ No flexibility        Hard to be other joins like `Left`, `Outer`, `right` without extra code
+
+"""
+
+# last video time: 10:30
