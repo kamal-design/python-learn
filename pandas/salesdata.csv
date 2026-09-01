@@ -1,0 +1,30 @@
+Date,Product,Region,Units,Unit_Price
+2024-01-05,Laptop,North,12,999.99
+2024-01-08,Smartphone,South,25,699.50
+2024-01-10,Tablet,East,18,450.00
+2024-01-12,Monitor,West,10,320.25
+2024-01-15,Keyboard,North,40,45.99
+2024-01-18,Mouse,South,55,24.50
+2024-01-21,Headphones,East,30,89.99
+2024-01-24,Printer,West,8,210.00
+2024-01-27,Webcam,North,15,74.95
+2024-02-01,Speaker,South,20,120.75
+2024-02-04,USB Drive,East,65,18.25
+2024-02-07,Charger,West,35,29.99
+2024-02-10,Laptop,South,9,1099.00
+2024-02-13,Smartphone,North,22,749.99
+2024-02-16,Monitor,East,11,350.00
+2024-02-19,Keyboard,West,47,42.50
+2024-02-22,Headphones,North,26,95.00
+2024-02-25,Printer,South,7,230.00
+2024-03-01,Tablet,West,14,485.50
+2024-03-04,Speaker,North,18,132.00
+2024-03-07,Mouse,East,60,22.75
+2024-03-10,Webcam,South,12,79.99
+2024-03-13,Laptop,West,6,1299.00
+2024-03-16,Smartphone,East,19,789.99
+2024-03-19,USB Drive,North,72,16.50
+2024-03-22,Charger,South,28,31.25
+2024-03-25,Monitor,West,9,340.00
+2024-03-28,Keyboard,East,42,48.00
+2024-03-31,Headphones,South,33,92.50
