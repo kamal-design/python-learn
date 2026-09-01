@@ -181,4 +181,16 @@ CRITICAL    Serious error (app my crash)
 
 """
 
-# last video time: 10:30
+"""
+Flask is a lightweight web framework for python. It allows you to build web applications quickly and easily. Flask is often used for building small to medium-sized web applications, APIs, and microservices.
+
+Show HTML Pages in a browser, handle form submissions, and interact with databases. Flask is known for its simplicity, flexibility, and ease of use, making it a popular choice for developers who want to create web applications without the complexity of larger frameworks.
+
+Module user input (forms) and output (HTML pages) to the browser. Flask is often used for building small to medium-sized web applications, APIs, and microservices.
+
+Connect to databases (like SQLite, MySQL, PostgreSQL) to store and retrieve data. Flask can be used to create RESTful APIs that allow different applications to communicate with each other.
+
+Flask is often used in combination with other libraries and tools, such as SQLAlchemy for database management, Jinja2 for templating, and Flask-RESTful for building RESTful APIs.
+"""
+
+# last video time: 10:50

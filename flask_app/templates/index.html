@@ -1,0 +1,70 @@
+<section class="welcome-section">
+  <div class="welcome-content">
+    <p class="welcome-tag">Welcome</p>
+    <h1>Welcome to Our App</h1>
+    <p>
+      Discover a simple and elegant experience designed to help you get things
+      done with ease.
+    </p>
+    <a href="#" class="welcome-button">Get Started</a>
+    <a href="/about" class="welcome-button">About Page</a>
+  </div>
+</section>
+
+<style>
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background: linear-gradient(135deg, #f6f8ff 0%, #e8eefc 100%);
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .welcome-content {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .welcome-tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #4f6ef7;
+    background: rgba(79, 110, 247, 0.1);
+    border-radius: 999px;
+    padding: 0.5rem 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    color: #1f2937;
+  }
+
+  .welcome-content p {
+    margin: 0 0 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4b5563;
+  }
+
+  .welcome-button {
+    display: inline-block;
+    background: #4f6ef7;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.9rem 1.6rem;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .welcome-button:hover {
+    background: #3d5ae0;
+  }
+</style>
