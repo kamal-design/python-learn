@@ -193,4 +193,88 @@ Connect to databases (like SQLite, MySQL, PostgreSQL) to store and retrieve data
 Flask is often used in combination with other libraries and tools, such as SQLAlchemy for database management, Jinja2 for templating, and Flask-RESTful for building RESTful APIs.
 """
 
+"""
+Building Your Own Python Package and Publishing to PyPI
+
+# pip (python package index [pypi.org]) is a package manager for python. It allows you to install, update, and manage third-party libraries and packages that are not included in the standard python library. pip makes it easy to add new functionality to your python projects by allowing you to easily install and use external packages.
+
+gowtham c libary for "data pipeline helper" created python package index (pypi.org) and published it to pypi.org. pip install data-pipeline-helper
+
+create new python package library and publish it to pypi.org (Folder structure)
+DataCleaning/        # Main Project Folder (your package name root)
+├── data_pipeline_helper/    # Source Code Folder (contains your package code)
+│   ├── __init__.py          # Makes this folder a package
+│   ├── cleaning.py          # module for data cleaning functions
+│   ├── etl.py               # module for ETL functions
+│   ├── sql_builder.py       # module for SQL builder functions
+│   └── utils.py             # module for utility functions
+|   examples/                # Example usage folder (contains example scripts)
+|       examples_usage.py    # example script demonstrating how to use the package
+    tests/                   # Test Folder (contains unit tests for your package)
+        __init__.py          # makes this folder a package
+        test_cleaning.py     # Tests for cleaning module
+        test_etl.py          # Tests for etl module
+        test_sql_builder.py  # Tests for sql_builder module
+├── setup.py                 # packaging configuration
+├── README.md                # package documentation and usage instructions
+├── LICENSE                  # Licence for your package (e.g MIT, Apache, etc.)
+├── requirements.txt         # List of dependencies required to run your package
+
+data file (csv, json, etc..) for testing and examples can be placed in a separate folder like `data/` or `tests/data/` depending on your project structure and needs.
+
+this library is used for data cleaning (remove null values, remove duplicates using pandas.), ETL (Extract, Transform, Load 'Loads a csv file into a DataFrame, saves a dataFrame to a CSV file') processes, SQL query building, and utility functions to support data pipeline development. It provides a set of reusable functions and classes that can be easily integrated into your data processing workflows (create sql query generate file for my data).
+
+example show how to work with this library (data-pipeline-helper) to clean data, load data, and build SQL queries.
+
+step 1: pip install data-pipeline-helper
+step 2: load data and clean it
+from data_pipeline_helper.cleaning import remove_nulls, remove_duplicates
+from data_pipeline_helper.etl import load_csv, save_to_csv
+
+# Load data from a CSV file into a DataFrame
+df = load_csv_to_dataFrame('file_path.csv')
+
+# Remove null values from the DataFrame
+df_cleaned = remove_null_values(df, columns=['column1', 'column2'])
+
+# Build SQL query (SQL query builder)
+query = build_select_query(table_name='my_table', columns=['column1', 'column2'], where_clause='column1 > 10')
+
+
+1. test your package locally before publishing it to PyPI. You can do this by creating a virtual environment and installing your package in editable mode using the following command:
+pip install -e .
+
+2. Run your tests to ensure that everything is working as expected. You can use a testing framework like pytest to run your tests.
+pip install pytest
+pytest tests/
+
+# passed show message
+
+3. build your package distribution files using the following command (gz, wheel and source distribution (dist)):
+python setup.py sdist bdist_wheel
+
+    install the build tools if you haven't already:
+    pip install setuptools wheel
+    pip intall build
+
+4. intall this package distribution files locally to test the installation process:
+pip install dist/data_pipeline_helper-0.1.0-py3-none-any.whl
+
+install this package your machine and test it by importing the package and using its functions in a python script or interactive shell.
+
+5. twine is a utility for publishing python packages to PyPI. You can install twine using pip:
+pip install twine
+
+create an account on PyPI (https://pypi.org/account/register/) if you don't have one already. You will need this account to upload your package. (API Token create and copy it for upload package to pypi.org)
+
+Upload your package to PyPI using twine. First, install twine if you haven't already:
+pip install twine
+
+6. Upload your package to PyPI using the following command:
+twine upload dist/*
+
+7. verify that your package is available on PyPI by visiting https://pypi.org/project/data-pipeline-helper-kamal/ (replace with your package name).
+
+"""
+
 # last video time: 10:50
